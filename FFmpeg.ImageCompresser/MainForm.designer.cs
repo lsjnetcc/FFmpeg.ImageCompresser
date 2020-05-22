@@ -76,9 +76,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txtCompressFolderPath);
             this.groupBox1.Location = new System.Drawing.Point(16, 15);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1092, 335);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -96,7 +96,7 @@
             this.lvFileCompress.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.lvFileCompress.HideSelection = false;
             this.lvFileCompress.Location = new System.Drawing.Point(13, 59);
-            this.lvFileCompress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lvFileCompress.Margin = new System.Windows.Forms.Padding(4);
             this.lvFileCompress.MultiSelect = false;
             this.lvFileCompress.Name = "lvFileCompress";
             this.lvFileCompress.Size = new System.Drawing.Size(1060, 263);
@@ -121,12 +121,12 @@
             // 
             this.图片尺寸.Text = "图片尺寸(宽x高)";
             this.图片尺寸.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.图片尺寸.Width = 120;
+            this.图片尺寸.Width = 165;
             // 
             // btnSelectCompressFolder
             // 
             this.btnSelectCompressFolder.Location = new System.Drawing.Point(975, 24);
-            this.btnSelectCompressFolder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSelectCompressFolder.Margin = new System.Windows.Forms.Padding(4);
             this.btnSelectCompressFolder.Name = "btnSelectCompressFolder";
             this.btnSelectCompressFolder.Size = new System.Drawing.Size(100, 29);
             this.btnSelectCompressFolder.TabIndex = 2;
@@ -147,7 +147,7 @@
             // txtCompressFolderPath
             // 
             this.txtCompressFolderPath.Location = new System.Drawing.Point(99, 25);
-            this.txtCompressFolderPath.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCompressFolderPath.Margin = new System.Windows.Forms.Padding(4);
             this.txtCompressFolderPath.Name = "txtCompressFolderPath";
             this.txtCompressFolderPath.Size = new System.Drawing.Size(872, 25);
             this.txtCompressFolderPath.TabIndex = 0;
@@ -159,9 +159,9 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.txtSaveFolderPath);
             this.groupBox2.Location = new System.Drawing.Point(16, 358);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(1092, 312);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
@@ -179,7 +179,7 @@
             this.lvFileCompressResult.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.lvFileCompressResult.HideSelection = false;
             this.lvFileCompressResult.Location = new System.Drawing.Point(13, 60);
-            this.lvFileCompressResult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lvFileCompressResult.Margin = new System.Windows.Forms.Padding(4);
             this.lvFileCompressResult.MultiSelect = false;
             this.lvFileCompressResult.Name = "lvFileCompressResult";
             this.lvFileCompressResult.Size = new System.Drawing.Size(1060, 240);
@@ -210,7 +210,7 @@
             // btnSelectSaveFolder
             // 
             this.btnSelectSaveFolder.Location = new System.Drawing.Point(975, 24);
-            this.btnSelectSaveFolder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSelectSaveFolder.Margin = new System.Windows.Forms.Padding(4);
             this.btnSelectSaveFolder.Name = "btnSelectSaveFolder";
             this.btnSelectSaveFolder.Size = new System.Drawing.Size(100, 29);
             this.btnSelectSaveFolder.TabIndex = 5;
@@ -231,7 +231,7 @@
             // txtSaveFolderPath
             // 
             this.txtSaveFolderPath.Location = new System.Drawing.Point(99, 25);
-            this.txtSaveFolderPath.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSaveFolderPath.Margin = new System.Windows.Forms.Padding(4);
             this.txtSaveFolderPath.Name = "txtSaveFolderPath";
             this.txtSaveFolderPath.Size = new System.Drawing.Size(872, 25);
             this.txtSaveFolderPath.TabIndex = 3;
@@ -249,7 +249,7 @@
             // btnClear
             // 
             this.btnClear.Location = new System.Drawing.Point(1008, 696);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(100, 29);
             this.btnClear.TabIndex = 3;
@@ -260,7 +260,7 @@
             // btnStartCompress
             // 
             this.btnStartCompress.Location = new System.Drawing.Point(900, 696);
-            this.btnStartCompress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnStartCompress.Margin = new System.Windows.Forms.Padding(4);
             this.btnStartCompress.Name = "btnStartCompress";
             this.btnStartCompress.Size = new System.Drawing.Size(100, 29);
             this.btnStartCompress.TabIndex = 4;
@@ -349,9 +349,9 @@
             this.gbxChangeSize.Controls.Add(this.label8);
             this.gbxChangeSize.Controls.Add(this.label7);
             this.gbxChangeSize.Location = new System.Drawing.Point(476, 678);
-            this.gbxChangeSize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxChangeSize.Margin = new System.Windows.Forms.Padding(4);
             this.gbxChangeSize.Name = "gbxChangeSize";
-            this.gbxChangeSize.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxChangeSize.Padding = new System.Windows.Forms.Padding(4);
             this.gbxChangeSize.Size = new System.Drawing.Size(417, 55);
             this.gbxChangeSize.TabIndex = 12;
             this.gbxChangeSize.TabStop = false;
@@ -361,7 +361,7 @@
             this.cmbChangeType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbChangeType.FormattingEnabled = true;
             this.cmbChangeType.Location = new System.Drawing.Point(285, 24);
-            this.cmbChangeType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbChangeType.Margin = new System.Windows.Forms.Padding(4);
             this.cmbChangeType.Name = "cmbChangeType";
             this.cmbChangeType.Size = new System.Drawing.Size(117, 23);
             this.cmbChangeType.TabIndex = 5;
@@ -369,7 +369,7 @@
             // txtHeight
             // 
             this.txtHeight.Location = new System.Drawing.Point(180, 24);
-            this.txtHeight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtHeight.Margin = new System.Windows.Forms.Padding(4);
             this.txtHeight.Name = "txtHeight";
             this.txtHeight.Size = new System.Drawing.Size(95, 25);
             this.txtHeight.TabIndex = 4;
@@ -377,7 +377,7 @@
             // txtWidth
             // 
             this.txtWidth.Location = new System.Drawing.Point(40, 24);
-            this.txtWidth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtWidth.Margin = new System.Windows.Forms.Padding(4);
             this.txtWidth.Name = "txtWidth";
             this.txtWidth.Size = new System.Drawing.Size(95, 25);
             this.txtWidth.TabIndex = 3;
@@ -406,7 +406,7 @@
             // 
             this.chkChangeSize.AutoSize = true;
             this.chkChangeSize.Location = new System.Drawing.Point(492, 676);
-            this.chkChangeSize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkChangeSize.Margin = new System.Windows.Forms.Padding(4);
             this.chkChangeSize.Name = "chkChangeSize";
             this.chkChangeSize.Size = new System.Drawing.Size(119, 19);
             this.chkChangeSize.TabIndex = 0;
@@ -435,7 +435,7 @@
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
